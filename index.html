@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Movies</h1>
+    </header>
+    <div class="tabs">
+        <a href="#" onclick="showTab(event, 'action')">Action</a>
+        <a href="#" onclick="showTab(event, 'drama')">Drama</a>
+        <a href="#" onclick="showTab(event, 'comedy')">Comedy</a>
+    </div>
+
+    <div id="action" class="tab-content active">
+        <div class="movie">
+            <img src="images/Deadpool_&_Wolverine.jpg" alt="movie">
+            <h3>Deadpool & Wolverine</h3>
+            <p>Exciting action packed film</p>
+        </div>
+        <div class="movie">
+            <img src="images/Fall_Guy.jpg" alt="movie">
+            <h3>Fall Guy</h3>
+            <p>Exciting action packed film</p>
+        </div>
+    </div>
+
+    <div id="comedy" class="tab-content active">
+        <div class="movie">
+            <img src="images/Bad_Boys.jpg" alt="movie">
+            <h3>Bad Boys</h3>
+            <p>Exciting action packed film</p>
+        </div>
+        <div class="movie">
+            <img src="images/The_Lost_City.jpg" alt="movie">
+            <h3>The Lost City</h3>
+            <p>Exciting action packed film</p>
+        </div>
+    </div>
+
+    <div id="drama" class="tab-content active">
+        <div class="movie">
+            <img src="images/1+1.jpg" alt="movie">
+            <h3>1+1</h3>
+            <p>Exciting action packed film</p>
+        </div>
+        <div class="movie">
+            <img src="images/Green_Book.jpg" alt="movie">
+            <h3>Green Book</h3>
+            <p>Exciting action packed film</p>
+        </div>
+    </div>
+
+
+    <button class="button-recomended" onclick="recomendMovie()">Recomend Movie</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

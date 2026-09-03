@@ -1,0 +1,88 @@
+ header {
+            background-color: rgb(26, 26, 33);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+
+        body {
+            background-color: rgb(37, 37, 46);
+        }
+
+        .tabs {
+            justify-content: center;
+            background-color: rgb(201, 201, 201);
+            padding: 10px 0px;
+            display: flex;
+        }
+
+        .tabs a {
+            background-color: rgb(100, 100, 100);
+            color: white;
+            padding: 10px 20px;
+            margin: 0px 10px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+
+        }
+
+        .tabs a:hover {
+            background-color: rgb(146, 146, 146);
+
+        }
+
+        .tab-content {
+            padding: 20px;
+            text-align: center;
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+            color: white;
+        }
+
+        .movie {
+            background-color: rgb(37, 37, 46);
+            display: inline-block;
+            border-radius: 10px;
+            margin: 15px;
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .movie img {
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        .movie:hover {
+            transform: scale(1.05);
+        }
+
+        .movie h3 {
+            font-size: 1.2em;
+            margin: 10px 0px;
+            color: white;
+        }
+
+        .button-recomended {
+            background-color: rebeccapurple;
+            color: white;
+            border-radius: 5px;
+            font-size: 1.2em;
+            display: block;
+            margin: 30px;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-recomended :hover {
+            background-color: rgb(114, 20, 207);
+        }
